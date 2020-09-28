@@ -59,19 +59,19 @@ const Quote = () => {
         </thead>
         <tbody>{list}</tbody>
       </table>
-      <div className="row text-right  m0">
+      <div className="row text-right  m0 bb">
         <div className="col-sm-6 m0 p0">Tax</div>
         <div className="col-sm-6 m0 p0">
           ${cart.addedItems.length > 0 ? (cart.total * 18) / 100 : ""}
         </div>
       </div>
-      <div className="row text-right  m0">
+      <div className="row text-right  m0 bb">
         <div className="col-sm-6 m0 p0">Shipping</div>
         <div className="col-sm-6 m0 p0">
           ${cart.addedItems.length > 0 ? cart.shipping : ""}
         </div>
       </div>
-      <div className="row text-right  m0">
+      <div className="row text-right  m0 bb">
         <div className="col-sm-6 m0 p0">Total</div>
         <div className="col-sm-6 m0 p0">
           ${cart.total + cart.shipping + (cart.total * 18) / 100}
