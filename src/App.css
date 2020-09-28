@@ -172,3 +172,9 @@
 .active >button{
     background-color: #ffc107!important;
 } 
+
+.bb{
+  border-bottom: 1px solid #80808066;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
